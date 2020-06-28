@@ -1135,13 +1135,13 @@ echo "<script>window.location.replace(\"index.php\");</script>";
 
 <div class="row " >
 <div class="col-sm-4 col-sm-offset-0 pull-right">              
-ناريخ الميلاد <b style="color:#F00">*</b> <div dir="ltr" class="input-group "><input type="date"  style="text-align:right" class="form-control" id="date_naisance"  name="date_naisance" value="0000-00-00" oninvalid="this.setCustomValidity('أدخل تاريخ الازدياد ')" oninput="setCustomValidity('')"   required />
+ تاريخ الإزدياد <b style="color:#F00">*</b> <div dir="ltr" class="input-group "><input type="date"  style="text-align:right" class="form-control" id="date_naisance"  name="date_naisance" value="0000-00-00" oninvalid="this.setCustomValidity('أدخل تاريخ الازدياد ')" oninput="setCustomValidity('')"   required />
 <span  class="glyphicon glyphicon-ok form-control-sucsses form-control-feedback pull-left" style="visibility:hidden;"  id="date_naisance1"></span> <span class="glyphicon glyphicon-remove form-control-feedback " style="visibility:hidden" id="date_naisance2"></span>
 <span class="input-group-addon " style="background-color:#000;color:#FFF" ><span class="fa fa-calendar" style="font-size:16px"></span></span>
 </div>	
 </div><!-- fin col6 offset0 -->
 <div class="col-sm-4 col-sm-offset-0 pull-right">			
-مكان الميلاد <b style="color:#F00">*</b> <div dir="ltr" class="input-group"><input type="text" id="lieu_naisance" class="form-control keyboardInput"  name="lieu_naisance"  oninvalid="this.setCustomValidity('حقل إجباري')" oninput="setCustomValidity('');changer_lettre(this.id)"required />
+مكان الازدياد <b style="color:#F00">*</b> <div dir="ltr" class="input-group"><input type="text" id="lieu_naisance" class="form-control keyboardInput"  name="lieu_naisance"  oninvalid="this.setCustomValidity('حقل إجباري')" oninput="setCustomValidity('');changer_lettre(this.id)"required />
 <span  class="glyphicon glyphicon-ok form-control-sucsses form-control-feedback pull-left" style="visibility:hidden;"  id="lieu_naisance1"></span> <span class="glyphicon glyphicon-remove form-control-feedback " style="visibility:hidden" id="lieu_naisance2"></span>
 <span class="input-group-addon " style="background-color:#000;color:#FFF" ><span class="fa fa-street-view" style="font-size:20px"></span></span>
 </div>	
@@ -1745,7 +1745,7 @@ echo "<script>window.location.replace(\"index.php\");</script>";
 				<thead>
 				 <tr>
    <td  rowspan="2" valign="top"><p style="width:200px">طبيعة العمل أو الدراسة</p></td>
-<td  rowspan="2" valign="top"><p style="width:70px">تاريخ النشر </p></td>
+<td  rowspan="2" valign="top"><p style="width:70px">الفترة</p></td>
  
 
        <td  colspan="3" valign="top"><p style="width:300px">المجلة أو الدورية المنشور بها</p></td>        
@@ -2172,7 +2172,7 @@ $i=$i+1;
     <br />    <br />                   
      <div class="" style="color:#F60;font-size:18px;border:">
    <p > <input style="height:20px;width:30px;color:#F00"  type="checkbox" nom="delare_honeur" class="btn btn-info" value="أصرح" oninvalid="this.setCustomValidity('يجب التعهد قبل التسجيل')" onchange="setCustomValidity('');" required />   أصرح بشرفي  بصحة المعلومات المبينة في  هذه الوثيقة وأتحمل كل تبعات 
-عدم صحة أو دقة المعلومات بما في  ذلك إلغاء نجاحي ي  المسابقة</p>
+عدم صحة أو دقة المعلومات بما في  ذلك إلغاء نجاحي  في  المسابقة</p>
     
      </div>                
        <br /><br />              
