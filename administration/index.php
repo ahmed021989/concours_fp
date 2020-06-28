@@ -206,7 +206,7 @@ $cpt=0;
 						
 						  <div class="col-md-3">
 
-                             <div class="widget widget-primary widget-item-icon" style="background:#10A003;" onmouseover="this.style.background='none" onclick="location.href='list_accepte.php';;" onmouseout="this.style.background='#10A003';">
+                             <div class="widget widget-primary widget-item-icon" style="background:#10A003;" onmouseover="this.style.background='none'" onclick="location.href='list_accepte.php';;" onmouseout="this.style.background='#10A003';">
                                 <div class="widget-item-left">
                                
                                 <span class="fa fa-check-square-o"></span>
